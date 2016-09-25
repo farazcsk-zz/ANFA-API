@@ -16,5 +16,13 @@
   "Test": {
     "dataSource": "MongoTest",
     "public": true
+  },
+  "Workout": {
+    "dataSource": "MongoTest",
+    "public": true
+  },
+  "Set": {
+    "dataSource": "MongoTest",
+    "public": true
   }
 }

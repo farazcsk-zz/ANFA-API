@@ -1,0 +1,31 @@
+{
+  "name": "Set",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "workout": {
+      "type": "belongsTo",
+      "model": "Workout",
+      "foreignKey": ""
+    },
+    "tests": {
+      "type": "hasMany",
+      "model": "Test",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

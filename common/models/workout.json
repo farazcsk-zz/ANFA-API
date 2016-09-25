@@ -1,34 +1,22 @@
 {
-  "name": "Test",
+  "name": "Workout",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "question": {
-      "type": "string"
-    },
-    "answer": {
-      "type": "string"
-    },
-    "wrongAnswer1": {
-      "type": "string"
-    },
-    "wrongAnswer2": {
-      "type": "string"
-    },
-    "wrongAnswer3": {
+    "description": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "set": {
-      "type": "belongsTo",
+    "sets": {
+      "type": "hasMany",
       "model": "Set",
       "foreignKey": ""
     }
