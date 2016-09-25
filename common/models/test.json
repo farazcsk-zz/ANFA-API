@@ -1,0 +1,32 @@
+{
+  "name": "Test",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "wrongAnswer1": {
+      "type": "string"
+    },
+    "wrongAnswer2": {
+      "type": "string"
+    },
+    "wrongAnswer3": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

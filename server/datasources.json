@@ -1,0 +1,11 @@
+{
+  "MongoTest": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "test-creator",
+    "username": "test",
+    "password": "123",
+    "name": "MongoTest",
+    "connector": "mongodb"
+  }
+}
