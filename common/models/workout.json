@@ -15,6 +15,11 @@
   },
   "validations": [],
   "relations": {
+    "account": {
+      "type": "belongsTo",
+      "model": "account",
+      "foreignKey": ""
+    },
     "sets": {
       "type": "hasMany",
       "model": "Set",

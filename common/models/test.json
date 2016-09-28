@@ -15,14 +15,8 @@
     "answer": {
       "type": "string"
     },
-    "wrongAnswer1": {
-      "type": "string"
-    },
-    "wrongAnswer2": {
-      "type": "string"
-    },
-    "wrongAnswer3": {
-      "type": "string"
+    "wrongAnswers": {
+      "type": "array"
     }
   },
   "validations": [],

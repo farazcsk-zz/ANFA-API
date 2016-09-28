@@ -24,5 +24,17 @@
   "Set": {
     "dataSource": "MongoTest",
     "public": true
+  },
+  "Account": {
+    "dataSource": "MongoTest",
+    "public": true
+  },
+   "AccessToken": {
+    "dataSource": "MongoTest",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "MongoTest",
+    "public": false
   }
 }
