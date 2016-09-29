@@ -9,7 +9,13 @@
     
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "workouts": {
+      "type": "hasMany",
+      "model": "Workout",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

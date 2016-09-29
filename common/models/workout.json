@@ -17,7 +17,7 @@
   "relations": {
     "account": {
       "type": "belongsTo",
-      "model": "account",
+      "model": "Account",
       "foreignKey": ""
     },
     "sets": {
