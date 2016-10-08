@@ -1,28 +1,29 @@
 {
-  "name": "Set",
+  "name": "Task",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "number": {
-      "type": "number"
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "wrongAnswers": {
+      "type": "array"
     }
   },
   "validations": [],
   "relations": {
-    "workout": {
+    "section": {
       "type": "belongsTo",
-      "model": "Workout",
-      "foreignKey": ""
-    },
-    "tests": {
-      "type": "hasMany",
-      "model": "Test",
+      "model": "Section",
       "foreignKey": ""
     }
   },

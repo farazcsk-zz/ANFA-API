@@ -10,9 +10,9 @@
   },
   "validations": [],
   "relations": {
-    "workouts": {
+    "worksheets": {
       "type": "hasMany",
-      "model": "Workout",
+      "model": "Worksheet",
       "foreignKey": ""
     }
   },

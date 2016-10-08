@@ -1,29 +1,28 @@
 {
-  "name": "Test",
+  "name": "Worksheet",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "question": {
+    "description": {
       "type": "string"
-    },
-    "answer": {
-      "type": "string"
-    },
-    "wrongAnswers": {
-      "type": "array"
     }
   },
   "validations": [],
   "relations": {
-    "set": {
+    "account": {
       "type": "belongsTo",
-      "model": "Set",
+      "model": "Account",
+      "foreignKey": ""
+    },
+    "sections": {
+      "type": "hasMany",
+      "model": "Section",
       "foreignKey": ""
     }
   },

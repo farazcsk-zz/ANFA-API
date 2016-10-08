@@ -1,5 +1,5 @@
 {
-  "name": "Workout",
+  "name": "Section",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -9,20 +9,20 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
+    "number": {
+      "type": "number"
     }
   },
   "validations": [],
   "relations": {
-    "account": {
+    "workout": {
       "type": "belongsTo",
-      "model": "Account",
+      "model": "Worksheet",
       "foreignKey": ""
     },
-    "sets": {
+    "tasks": {
       "type": "hasMany",
-      "model": "Set",
+      "model": "Task",
       "foreignKey": ""
     }
   },
