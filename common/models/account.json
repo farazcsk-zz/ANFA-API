@@ -9,7 +9,13 @@
     
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "worksheets": {
+      "type": "hasMany",
+      "model": "Worksheet",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

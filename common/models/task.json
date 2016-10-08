@@ -1,28 +1,29 @@
 {
-  "name": "Workout",
+  "name": "Task",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "description": {
+    "question": {
       "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "wrongAnswers": {
+      "type": "array"
     }
   },
   "validations": [],
   "relations": {
-    "account": {
+    "section": {
       "type": "belongsTo",
-      "model": "account",
-      "foreignKey": ""
-    },
-    "sets": {
-      "type": "hasMany",
-      "model": "Set",
+      "model": "Section",
       "foreignKey": ""
     }
   },
